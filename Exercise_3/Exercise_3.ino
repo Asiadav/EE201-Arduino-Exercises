@@ -1,10 +1,10 @@
 void setup() {
-  pinMode(0, INPUT);
+  pinMode(10, INPUT);
   Serial.begin(9600);
 }
 
 void loop() {
-  if (digitalRead(0))
+  if (digitalRead(10))
   {
     Serial.println("Hello World!");
   }
